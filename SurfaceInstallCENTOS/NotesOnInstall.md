@@ -22,3 +22,11 @@ $ sudo dnf config-manager \
     $ ninja -C build
     $ sudo ./build/iptsd
 ```
+## You will need to enable iptsd in systemd if ninja doesn't workout
+
+
+```bash
+    $ sudo systemctl enable iptsd
+    $ sudo systemctl start iptsd    
+```
+* A reboot will wouldn't hurt...
