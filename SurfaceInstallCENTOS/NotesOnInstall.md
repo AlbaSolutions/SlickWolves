@@ -7,7 +7,7 @@ https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
 $ sudo dnf config-manager \
     --add-repo=https://pkg.surfacelinux.com/fedora/linux-surface.repo
 ```
-###Need to get a kernel then get iptsd installed for touch integration
+### Need to get a kernel then get iptsd installed for touch integration
   1. should be a iptsd/ located in folder
   2. if not then pull from  https://github.com/linux-surface/iptsd
   3.  follow readme from that github source
